@@ -1,0 +1,84 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IDE / Editor folders
+*.iml
+*.ipr
+*.iws
+.idea/
+# Uncomment if you want to ignore VS Code settings
+# .vscode/
+
+# Flutter / Dart / Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+/build/
+/coverage/
+
+# Keep pubspec.lock for apps; for packages you may want to ignore it.
+# pubspec.lock
+
+# Generated API docs
+**/doc/api/
+
+# iOS
+**/ios/Flutter/.last_build_id
+ios/Flutter/ephemeral/
+ios/Pods/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+
+# Android
+android/.gradle/
+**/local.properties
+android/*/build/
+**/build/
+**/*.keystore
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Build/
+
+# Windows
+windows/Flutter/ephemeral/
+windows/runner/Release/
+windows/runner/Debug/
+
+# Linux
+linux/Flutter/ephemeral/
+linux/Build/
+
+# Symbolication and obfuscation
+app.*.symbols
+app.*.map.json
+
+# Keystores and secrets
+*.jks
+*.keystore
+.env
+.env.*
+
+# Misc generated
+*.lock
+*.log
+
+# Keep these local Android Studio files out of git
+/.idea/
+/.gradle/
+
