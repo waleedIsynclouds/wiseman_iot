@@ -45,7 +45,7 @@ flutter {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.aar", "*.jar"))))
-    implementation("no.nordicsemi.android.support.v18:scanner:1.4.3")
-    implementation("no.nordicsemi.android:log:2.2.0")
-    implementation("no.nordicsemi.android:ble:2.2.3") // support 1.6 and above
+    implementation("no.nordicsemi.android.support.v18:scanner:1.6.0")
+    implementation("no.nordicsemi.android:log:2.5.0")
+    implementation("no.nordicsemi.android:ble:2.11.0") // support 1.6 and above
 }
